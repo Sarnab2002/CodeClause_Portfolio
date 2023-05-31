@@ -1,0 +1,181 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Source+Code+Pro:wght@300;900&display=swap');
+*{
+    margin:0;
+    padding: 0;
+}
+.sidebar{
+    position:absolute;
+
+ background-color:rgb(187, 182, 182);
+ font-family: 'Quicksand', sans-serif; 
+ height:100vh;
+ transition: transform 0.3s ease-in;
+
+
+}
+.sidebar nav li{
+    list-style:none;
+    font-size:24px;
+    padding:34px 0;
+}
+.sidebar nav li a{
+    color:black;
+    text-decoration: none;
+
+}
+.sidebar nav {
+    padding:20px;
+}
+.container{
+    display:flex;
+}
+.main{
+    /*background-color: coral;*/
+    padding-left: 42px;
+    width:90vw;
+    
+}
+.infoContainer{
+    
+    height:58vh;
+    margin:144px auto;
+    display:flex;
+    justify-content: space-around;
+}
+.devinfo{
+    font-size:6px;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Quicksand', sans-serif;
+    
+}
+
+.hello{
+    padding-left:12px;
+font-size: 2.5em;
+font-family: 'Source Code Pro', monospace;
+}
+.name{
+    padding-left: 12px;
+    font-size:2.7em;
+    font-family: 'Quicksand', sans-serif;
+
+}
+.about{
+    padding-left: 12px;
+    font-size: 2.3em;
+    font-family: 'Source Code Pro', monospace;
+
+}
+.moreabout{
+    padding-left: 12px;
+    font-size:2em;
+    font-family: 'Quicksand', sans-serif;
+
+
+}
+.buttons{
+    font-size: 15px;
+    margin-top:2.2em;
+    padding-left:8.5px;
+}
+.buttons button{
+    font-size:13px;
+    padding:9px 12px;
+    border-radius:16px ;
+    background-color:dodgerblue;
+    color: white;
+}
+.buttons button:hover{
+    background-color:white;
+    color:dodgerblue;
+
+}
+.devpic img{
+    display:flex;
+    height:58vh;
+    
+}
+.contactform{
+    padding-top:184px;
+    padding-right:720px;
+    font-family: 'Quicksand', sans-serif;
+    margin:0 109px;
+    
+
+}
+.contactform h1 pre{
+    
+    
+    font-family: 'Source Code Pro', monospace;
+    padding:12px 0;
+    
+
+
+}
+.contactform form div{
+    padding:10px 0;
+    display:flex;
+    flex-direction:column;
+}
+.contactform form div input {
+    width:26vw;
+    border-radius:5px;
+    margin:6px 0 0 0;
+    padding:3px;
+}
+#emailHelp{
+    font-size:11px;
+    color:blue;
+    margin:0 5px;
+    padding: 3px 0 0 0;
+
+}
+.sidebarGo{
+    transform: translate(-443px,0px);
+    position:absolute;
+}
+.hamburger{
+    position:absolute;
+    cursor:pointer;
+    top:10px;
+    left:10px;
+    margin-top: 6px;
+}
+.ham{
+    margin-top:6px;
+    margin-left:10px;
+}
+.cross{
+    margin-left: 103px;
+    margin-top:6px;
+    
+}
+@media(max-width:1615px){
+    *{
+        /*background-color: aqua;*/
+
+    }
+    .hello{
+        font-size: 18px;
+    }
+    .buttons{
+        font-size: 14px;
+    }
+    .devinfo{
+        font-size:10px;
+    }
+    .devpic{
+        display:none;
+    }
+    /*.sidebar{
+        transform: translate(-443px,0px);
+        position:absolute;
+    }*/
+}
+
+
+
